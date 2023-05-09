@@ -3,11 +3,11 @@ FROM klakegg/hugo:ext
 # Copy Hugo project files to the /src folder in the Docker image
 COPY ./ /src
 
+# Set the working directory to the generated public folder
+WORKDIR /src
+
 # Build the Hugo site
 RUN hugo
-
-# Set the working directory to the generated public folder
-WORKDIR /src/public
 
 # Expose the default Hugo server port
 EXPOSE 1313
