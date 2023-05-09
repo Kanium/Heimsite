@@ -1,0 +1,52 @@
+baseurl: localhost
+title: KANIUM
+languageCode: en-us
+theme: hello-friend-ng
+paginate: 10
+params:
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04
+  homeSubtitle: Warriors of the world!
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  enableGlobalLanguageMenu: false
+  description: We are Kanium, welcome to our home...
+  keywords: community, homepage, entertainment, gaming
+  images:
+    - ""
+  logo:
+        logoText: ~/Kanium/
+        logoHomeLink: /
+taxonomies:
+  category: gaming
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - identifier: discord
+      name: Discord
+      url: "https://discord.gg/kanium"
+      weight: 1
+    - identifier: steam
+      name: Steam
+      url: "https://steamcommunity.com/groups/Kanium"
+      weight: 1
+    - identifier: twitch
+      name: Twitch
+      url: "https://www.twitch.tv/kaniumbs1"
+      weight: 20
+    - identifier: divider
+      weight: 29
+    - identifier: divider2
+      weight: 29
+    - identifier: divider3
+      weight: 29
+    - identifier: bpl
+      name: ->BlackPantsLegion
+      url: "https://theblackpantslegion.com/"
+      weight: 30
+
+
