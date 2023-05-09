@@ -14,5 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # 
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag heimsite:latest
