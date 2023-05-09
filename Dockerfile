@@ -1,4 +1,4 @@
-FROM klakegg/hugo:latest
+FROM klakegg/hugo:ext
 
 # Copy Hugo project files to the /src folder in the Docker image
 COPY ./ /src
