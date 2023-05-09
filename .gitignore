@@ -1,18 +1,24 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Other files and folders
-.settings/
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Temporary lock file while building
+/.hugo_build.lock
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Temporary directories
+/tmp/
+/hugo_cache/
+
+# Dependency directories
+/node_modules/
+
+# IDE/Editor files
+.vscode/
+.idea/
